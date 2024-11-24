@@ -67,3 +67,17 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+
+.ito:hover {
+  text-decoration: line-through;
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .garage {
+    width: 100vw;
+  }
+}
